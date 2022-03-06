@@ -1,0 +1,634 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin: 0%;
+}
+
+img{
+    width: 50%;
+}
+
+.grid-container {
+	display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 0px;
+}
+
+.grid-container > div{
+	/* border-radius: 20px; */
+    padding: 0% 2%;
+    text-align: center;
+}
+
+.grid-HeaderContainer{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-gap: 0px;
+    margin: 0px 0px;
+}
+
+.grid-HeaderContainer > div{
+    text-align: center;
+}
+
+.flex-profile-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-profile-container > div{
+    width: 50%;
+    margin: 3% 0%;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.flex-skill-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-skill-container > div{
+    background-color: rgb(255, 199, 153);
+    border-radius: 20px;
+    
+    width: 20%;
+    margin: 5% 2%;
+    padding: 5% 0%;
+    text-align: center;
+}
+
+.flex-hobby-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-hobby-container > div{
+    background-color: rgb(255, 229, 172);
+    border-radius: 20px;
+
+    width: 20%;
+    margin: 5% 2%;
+    padding: 5% 0%;
+    text-align: center;
+}
+
+.flex-contact-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-contact-container > div{
+    background-color: rgb(255, 229, 172);
+    border-radius: 20px;
+
+    width: 15%;
+    margin: 0% 2%;
+    padding: 1% 0%;
+    text-align: center;
+}
+
+.flex-project1-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-project1-container > div{
+    background-color: rgb(255, 229, 172);
+    border-radius: 20px;
+
+    width: 50%;
+    margin: 3% 0%;
+    text-align: center;
+    align-content: center;
+}
+
+.flex-project2-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.flex-project2-container > div{
+    background-color: rgb(255, 199, 153);
+    border-radius: 20px;
+
+    width: 50%;
+    margin: 3% 0%;
+    text-align: center;
+    align-content: center;
+}
+
+.project1{
+    grid-column: 1 / 2;
+    background-color:rgb(255, 229, 172);
+}
+
+.project2{
+    grid-column: 1 / 2;
+    background-color:rgb(255, 199, 153); 
+}
+
+.project-img{
+    width: 80%;
+    border-radius: 20px;
+}
+
+.profile-img{
+    /* margin: 5% 0%; */
+    width: 50%;
+    border-radius: 70px;
+}
+
+#font-project{
+    margin: auto;
+    font-size: 150%;
+}
+
+#header{
+    text-align: left;
+    background-color:rgb(255, 166, 93);
+
+    font-size: 40px;
+    font-weight: bold;
+    color: whitesmoke;
+
+    padding: 2% 2%;
+}
+
+#profile{
+    grid-column: 1 / 2;
+    background-color:rgb(255, 246, 196);
+
+}
+
+#skill{
+    grid-column: 1 / 2;
+    background-color:rgb(255, 166, 93);
+}
+
+#hobby{
+    grid-column: 1 / 2;
+    background-color:rgb(255, 246, 196);
+}
+
+#education{
+    grid-column: 1 / 2;
+    background-color:rgb(255, 166, 93);
+}
+
+#education > div{
+    margin: 2% 0%;
+}
+
+#assignment{
+    grid-column: 1 / 2;
+    background-color:rgb(255, 246, 196);
+}
+
+#assignment > div{
+    margin: 2% 0%;
+}
+
+#assignment > div > div{
+    margin: 2% 0%;
+}
+
+#contact{
+    grid-column: 1 / 2;
+    background-color:rgb(255, 166, 93);
+}
+
+#contact > div{
+    margin: 1% 0%;
+    /* border-bottom: 1px solid black; */
+}
+
+#profile-topic{
+    font-size: 40px;
+    font-weight: bold;
+
+    margin: 10% 0% ;
+}
+
+.topic{
+    font-size: 40px;
+    font-weight: bold;
+
+    margin: 1% 0% ;
+}
+
+@media only screen and (max-width: 768px) {
+	.grid-container {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 0px;
+    }
+    
+    .grid-container > div{
+        /* border-radius: 20px; */
+        padding: 0% 2%;
+        text-align: center;
+    }
+    
+    .flex-profile-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .flex-profile-container > div{
+        width: 100%;
+        margin: 3% 0%;
+        text-align: center;
+        align-content: center;
+    }
+    
+    .flex-skill-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .flex-skill-container > div{
+        background-color: rgb(255, 199, 153);
+        border-radius: 20px;
+        
+        width: 20%;
+        margin: 5% 2%;
+        padding: 5% 0%;
+        text-align: center;
+    }
+    
+    .flex-hobby-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .flex-hobby-container > div{
+        background-color: rgb(255, 229, 172);
+        border-radius: 20px;
+    
+        width: 20%;
+        margin: 5% 2%;
+        padding: 5% 0%;
+        text-align: center;
+    }
+
+    .flex-contact-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .flex-contact-container > div{
+        background-color: rgb(255, 229, 172);
+        border-radius: 20px;
+    
+        width: 30%;
+        margin: 1% 2%;
+        padding: 1% 0%;
+        text-align: center;
+    }
+    
+    
+    
+    #profile-img{
+        /* margin: 5% 0%; */
+        width: 30%;
+        border-radius: 70px;
+    }
+    
+    #header{
+        text-align: left;
+        background-color:rgb(255, 166, 93);
+    
+        font-size: 30px;
+        font-weight: bold;
+        color: whitesmoke;
+    
+        padding: 2% 2%;
+    }
+    
+    #profile{
+        grid-column: 1 / 2;
+        background-color:rgb(255, 246, 196);
+    
+    }
+    
+    #skill{
+        grid-column: 1 / 2;
+        background-color:rgb(255, 166, 93);
+    }
+    
+    #hobby{
+        grid-column: 1 / 2;
+        background-color:rgb(255, 246, 196);
+    }
+    
+    #education{
+        grid-column: 1 / 2;
+        background-color:rgb(255, 166, 93);
+    }
+    
+    #education > div{
+        margin: 2% 0%;
+    }
+    
+    #contact{
+        grid-column: 1 / 2;
+        background-color:rgb(255, 166, 93);
+    }
+    
+    #contact > div{
+        margin: 2% 0%;
+        /* border-bottom: 1px solid black; */
+    }
+
+    #profile-topic{
+        font-size: 25px;
+        font-weight: bold;
+    
+        margin: 1% 0% ;
+    }
+    
+    .topic{
+        font-size: 25px;
+        font-weight: bold;
+    
+        margin: 1% 0% ;
+    }
+
+    .flex-project1-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .flex-project1-container > div{
+        background-color: rgb(255, 229, 172);
+        border-radius: 20px;
+    
+        width: 100%;
+        margin: 3% 0%;
+        text-align: center;
+        align-content: center;
+    }
+    
+    .flex-project2-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+    }
+    
+    .flex-project2-container > div{
+        background-color: rgb(255, 199, 153);
+        border-radius: 20px;
+    
+        width: 100%;
+        margin: 3% 0%;
+        text-align: center;
+        align-content: center;
+    }
+    
+    #project1{
+        grid-column: 1 / 2;
+        background-color:rgb(255, 229, 172);
+    }
+    
+    #project2{
+        grid-column: 1 / 2;
+        background-color:rgb(255, 199, 153); 
+    }
+    
+    #project-img{
+        width: 50%;
+        border-radius: 20px;
+    }
+
+    #assignment{
+        grid-column: 1 / 2;
+        background-color:rgb(255, 246, 196);
+    }
+    
+    #assignment > div{
+        margin: 2% 0%;
+    }
+    
+    #assignment > div > div{
+        margin: 2% 0%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+	.grid-container {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 0px;
+    }
+    
+    .grid-container > div{
+        /* border-radius: 20px; */
+        padding: 2% 2%;
+        text-align: center;
+    }
+    
+    .flex-profile-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .flex-profile-container > div{
+        width: 100%;
+        margin: 5% 0%;
+        text-align: center;
+        align-content: center;
+    }
+    
+    .flex-skill-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .flex-skill-container > div{
+        background-color: rgb(255, 199, 153);
+        border-radius: 20px;
+        
+        width: 25%;
+        margin: 5% 2%;
+        padding: 5% 0%;
+        text-align: center;
+    }
+    
+    .flex-hobby-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .flex-hobby-container > div{
+        background-color: rgb(255, 229, 172);
+        border-radius: 20px;
+    
+        width: 30%;
+        margin: 5% 2%;
+        padding: 5% 0%;
+        text-align: center;
+    }
+
+    .flex-contact-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .flex-contact-container > div{
+        background-color: rgb(255, 229, 172);
+        border-radius: 20px;
+    
+        width: 45%;
+        margin: 2% 2%;
+        padding: 1% 0%;
+        text-align: center;
+    }
+    
+    
+    
+    #profile-img{
+        /* margin: 5% 0%; */
+        /* width: 100%; */
+        border-radius: 50px;
+    }
+    
+    #header{
+        text-align: center;
+        background-color:rgb(255, 166, 93);
+    
+        font-size: 30px;
+        font-weight: bold;
+        color: whitesmoke;
+    
+        padding: 2% 2%;
+    }
+    
+    #profile{
+        grid-column: 1 / 2;
+        background-color:rgb(255, 246, 196);
+    
+    }
+    
+    #skill{
+        grid-column: 1 / 2;
+        background-color:rgb(255, 166, 93);
+    }
+    
+    #hobby{
+        grid-column: 1 / 2;
+        background-color:rgb(255, 246, 196);
+    }
+    
+    #education{
+        grid-column: 1 / 2;
+        background-color:rgb(255, 166, 93);
+    }
+    
+    #education > div{
+        margin: 2% 0%;
+    }
+    
+    #contact{
+        grid-column: 1 / 2;
+        background-color:rgb(255, 166, 93);
+    }
+    
+    #contact > div{
+        margin: 2% 0%;
+        /* border-bottom: 1px solid black; */
+    }
+
+    #profile-topic{
+        font-size: 25px;
+        font-weight: bold;
+    
+        margin: 1% 0% ;
+    }
+
+    .topic{
+        font-size: 25px;
+        font-weight: bold;
+    
+        margin: 1% 0% ;
+    }
+
+    .flex-project1-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .flex-project1-container > div{
+        background-color: rgb(255, 229, 172);
+        border-radius: 20px;
+    
+        width: 100%;
+        margin: 3% 0%;
+        text-align: center;
+        align-content: center;
+    }
+    
+    .flex-project2-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .flex-project2-container > div{
+        background-color: rgb(255, 199, 153);
+        border-radius: 20px;
+    
+        width: 100%;
+        margin: 3% 0%;
+        text-align: center;
+        align-content: center;
+    }
+    
+    #project1{
+        grid-column: 1 / 2;
+        background-color:rgb(255, 229, 172);
+    }
+    
+    #project2{
+        grid-column: 1 / 2;
+        background-color:rgb(255, 199, 153); 
+    }
+    
+    #project-img{
+        width: 50%;
+        border-radius: 20px;
+    }
+
+    #assignment{
+        grid-column: 1 / 2;
+        background-color:rgb(255, 246, 196);
+    }
+    
+    #assignment > div{
+        margin: 2% 0%;
+    }
+    
+    #assignment > div > div{
+        margin: 2% 0%;
+    }
+}
