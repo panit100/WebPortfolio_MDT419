@@ -1,0 +1,28 @@
+body{
+    font-family: monospace;
+    font-size: 20px;
+
+    background-color: rgb(187, 223, 255);
+}
+
+div{
+    background-color: white;
+    border: solid white;
+    border-radius: 20px;
+    width: fit-content;
+
+    margin: 20px auto;
+    padding: 10px;
+}
+
+#topic1{
+    width: 50%;
+}
+
+#comment1{
+    width: 50%;
+}
+
+#comment2{
+    width: 50%;
+}

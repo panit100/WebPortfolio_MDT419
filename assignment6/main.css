@@ -1,0 +1,29 @@
+body{
+    background: rgb(156,238,255);
+    background: linear-gradient(90deg, rgba(156,238,255,1) 0%, rgba(113,113,240,1) 47%, rgba(13,13,99,1) 100%, rgba(2,0,36,1) 100%);
+}
+
+legend{
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin: auto;
+    font-size: 30px;
+    padding: 10px;
+    border: 1px rgb(146, 146, 146) solid;
+}
+
+fieldset{
+    border-radius: 10px;
+    background-color: rgb(200, 255, 255);
+    text-align: center;
+}
+
+input{
+    border-radius: 5px;
+    margin: 10px 0px;
+    
+}
+
+form{
+    margin: 0% 30%;
+}
